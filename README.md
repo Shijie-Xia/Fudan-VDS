@@ -3,7 +3,7 @@
   <span style="color:red">📢 <strong><i>Play racing games like driving in the real world!!</i></strong></span>
 </div>
 
-<h2 id="llama-moe">🎉 Introduction</h2>
+<h2>🎉 Introduction</h2>
 
 This is a project offered by Fudan University for fourth-year undergraduate students in the 'Intelligent System Design' course. Students are required to independently design their systems using *Nvidia Jetson Nano*. Here, we have developed a simulated driving system where users can control the game through actions similar to real-world driving using the development board or their own hardware!
 
@@ -32,14 +32,16 @@ This is a project offered by Fudan University for fourth-year undergraduate stud
     ``` bash
     python ./code/server.py
     ```
-You will get an IP address of the server. Modify the corresponding part in `./code/client.py`.
+    You will get an IP address of the server. Modify the corresponding part in `./code/client.py`.
+
     ```python
     # Modify the IP and PORT according to the server
     IP = 'the IP of the server'
     PORT = 'the port of the server'
     client.connect((IP, PORT))
     ```
-Run the program in client and open the computer game. Enjoy it!
-    ``` bash
-    python ./code/client .py
+    Run the program in client and open the computer game. Enjoy it!
+
+    ```bash
+    python ./code/client.py
     ```
