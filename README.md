@@ -5,7 +5,7 @@
 
 <h2>🎉 Introduction</h2>
 
-This is a project offered by Fudan University for fourth-year undergraduate students in the 'Intelligent System Design' course. Students are required to independently design their systems using *Nvidia Jetson Nano*. Here, we have developed a simulated driving system where users can control the game through actions similar to real-world driving using the development board or their own hardware!
+This is a project provided by Fudan University for fourth-year undergraduate students in the 'Intelligent System Design' course. Students are required to independently design their systems using *Nvidia Jetson Nano*. Here, we have developed a simulated driving system where users can control the game through actions similar to real-world driving using the development board or their own hardware!
 
 
 ## 👨‍🚀 Getting Started
