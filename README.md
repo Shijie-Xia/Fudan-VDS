@@ -24,7 +24,7 @@ This is a project offered by Fudan University for fourth-year undergraduate stud
     pip install -r requirements_server.txt
 
     # the GPU version of mediapipe for Jetson Jetson Nano
-    pip install .\lib\mediapipe-0.10.7-cp38-cp38-linux_aarch64.whl
+    pip install ./lib/mediapipe-0.10.7-cp38-cp38-linux_aarch64.whl
     ```
 3. **Install and config Vjoy and Xoutput for the server** - To enable the client react to the information from the program by pyvjoy. it needs the Vjoy and Xoutput to convert it into a controller command. We provide detailed instruction for it in Chinese in folder docs. Follow it step by step.
 
