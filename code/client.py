@@ -65,36 +65,4 @@ while True:
         else:
             j.set_axis(pyvjoy.HID_USAGE_SL1, 0x0000)
 
-    time.sleep(0.017)
-
-    if po_gear == 'N':
-        po_angle = int(po_angle)
-        j.set_axis(pyvjoy.HID_USAGE_X, po_angle+20)
-
-    # When shifting up or down, send joystick commands
-    if po_gear == 'U':
-        j.set_axis(pyvjoy.HID_USAGE_Y, 0x7FFF)
-    elif po_gear == 'D':
-        j.set_axis(pyvjoy.HID_USAGE_Y, 0x0000)
-    # Reset the joystick position if not in gear shifting mode, gear shifting mode ends,
-    # or if gear shifting mode is entered but no upshifting or downshifting operation is performed
-    else:
-        j.set_axis(pyvjoy.HID_USAGE_Y, 0x4000)
-
-    # When braking, send trigger commands
-    if po_brake != 'F':
-        po_brake = int(po_brake)
-        j.set_axis(pyvjoy.HID_USAGE_SL0, po_brake)
-    # Reset the trigger if not in braking state or when braking stops
-    else:
-        j.set_axis(pyvjoy.HID_USAGE_SL0, 0x0000)
-
-    # When accelerating, send trigger commands
-    if po_acce != 'F':
-        po_acce = int(po_acce)
-        j.set_axis(pyvjoy.HID_USAGE_SL1, po_acce)
-    # Reset the trigger if not in acceleration state or when acceleration stops
-    else:
-        j.set_axis(pyvjoy.HID_USAGE_SL1, 0x0000)
-
 client.close()
