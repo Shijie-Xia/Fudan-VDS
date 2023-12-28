@@ -1,11 +1,11 @@
 <div align="center">
-  <h1>Fudan-SDS: Building Your Own Simulated Driving System</h1>
+  <h1>Fudan-VDS: Building Your Own Virtual Driving System</h1>
   <span style="color:red">📢 <strong><i>Play racing games like driving in the real world!!</i></strong></span>
 </div>
 
 <h2>🎉 Introduction</h2>
 
-This is a project provided by Fudan University for fourth-year undergraduate students in the 'Intelligent System Design' course. Students are required to independently design their own system using *Nvidia Jetson Nano*. Here, our group has developed a simulated driving system where users can control the game through actions similar to real-world driving using the development board or their own hardware!
+This is a project provided by Fudan University for fourth-year undergraduate students in the 'Intelligent System Design' course. Students are required to independently design their own system using *Nvidia Jetson Nano*. Here, our group has developed a virtual driving system where users can control the game through actions similar to real-world driving using the development board or their own hardware!
 
 
 ## 👨‍🚀 Getting Started
