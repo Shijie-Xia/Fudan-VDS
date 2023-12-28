@@ -12,8 +12,8 @@ This is a project provided by Fudan University for fourth-year undergraduate stu
 
 1. **Clone the Repository and Navigate into the Directory** - Once your terminal is open, you can clone the repository and move into the directory by running the commands below.
    ```bash
-   git clone https://github.com/Shijie-Xia/Simple-driving-simulation-system.git
-   cd Simple-driving-simulation-system
+   git clone https://github.com/Shijie-Xia/Fudan-VDS.git
+   cd Fudan-VDS
    ```
 2. **Install the enviroment** - You need to install the necessary library for the client and server. The **client** means the device where you play the game while the **server** capture and analyse your posture with the camera. In our project, we use a PC for the client and the Nvidia Jeson Nano with a camera for the server. Of course a PC can play both roles. *Note we provide the GPU version of mediapipe for Jetson Jetson Nano to improve the frame rate of image processing.* Now install the enviroment for them!
     ```bash
